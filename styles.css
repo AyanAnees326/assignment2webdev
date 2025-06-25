@@ -1,0 +1,90 @@
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #1e1e26;
+    }
+
+    .container {
+      max-width: 800px;
+      margin: 3rem auto;
+      background-color: #1e1e26;
+      padding-bottom: 2rem;
+    }
+
+    .header {
+      background-color: #00447c;
+      color: rgb(255, 255, 255);
+      padding: 1rem;
+    }
+
+    .header h1 {
+      margin: 0 0 1rem 0;
+    }
+
+    .question-input {
+      display: flex;
+    }
+
+    .question-input input {
+      flex: 1;
+      padding: 0.5rem;
+      font-size: 1rem;
+    }
+
+    .question-input button {
+      background-color: #003057;
+      border: none;
+      cursor: pointer;
+      padding: 0 1rem;
+      font-size: 1.2rem;
+    }
+
+    .question-box {
+      background-color: white;
+      margin: 1rem;
+      padding: 1rem;
+      border-radius: 4px;
+      position: relative;
+    }
+
+    .question-box p {
+      margin-bottom: 1rem;
+    }
+
+    .option-input {
+      display: flex;
+      margin-bottom: 0.5rem;
+    }
+
+    .option-input input[type="text"] {
+      flex: 1;
+      padding: 0.3rem;
+    }
+
+    .option-input button {
+      background-color: #003057;
+      border: none;
+      padding: 0 0.7rem;
+      font-size: 1rem;
+      cursor: pointer;
+    }
+
+    .option-finalized {
+      display: flex;
+      align-items: center;
+      margin-bottom: 0.5rem;
+    }
+
+    .option-finalized input[type="radio"] {
+      margin-right: 0.5rem;
+    }
+
+    .delete-btn {
+      position: absolute;
+      bottom: 0.5rem;
+      right: 0.5rem;
+      background: none;
+      border: none;
+      color: rgb(0, 0, 0);
+      cursor: pointer;
+    }
